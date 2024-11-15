@@ -11,12 +11,12 @@ const Student = () => {
     const [events, setEvents] = useState([
         {
             id: 1,
-            name: 'Tech Innovation Hackathon',
+            name: 'SAT HACK ',
             category: 'hackathon',
             interest: 'tech',
-            date: '2023-11-15',
-            time: '09:00 AM',
-            location: 'Tech Hub, Campus Center',
+            date: '2024-11-15',
+            time: '8:00 PM',
+            location: '201, LT',
             organizer: 'Computer Science Department',
             description: 'Annual hackathon for innovative tech solutions',
             registrationLink: '/register/hackathon',
