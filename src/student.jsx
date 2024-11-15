@@ -5,6 +5,12 @@ import moment from 'moment';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './index.css';
+import AdminPortal from './AdminPortal.jsx';
+
+const addEvent = (event) => {
+    setEvents([...events, event]);
+};
+
 
 const Student = () => {
     // Event Data Structure
@@ -122,6 +128,7 @@ const Student = () => {
     
 
     return (
+    
         <div className="student-events-page">
             <h1>College Events Dashboard</h1>
 
